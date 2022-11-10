@@ -19,7 +19,6 @@ void printBinary_32(int n)
 
 int main()
 {
-    printBinary_32(1024);
-    
+    printBinary_32(INT32_MIN);
     return 0;
 }
