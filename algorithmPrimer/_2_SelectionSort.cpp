@@ -1,11 +1,38 @@
-// 实现一个最基本的选择排序（没写完）
+// 实现一个最基本的选择排序
 #include <iostream>
 
 using namespace std;
 
+void swap(int* arr, int index1, int index2)
+{
+    int temp = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = temp;
+}
+
+void show_arr(int* arr, int length)
+{
+    for (int i = 0; i < length; i++)
+    {
+        /* code */
+        if (0 == i)
+        {
+            /* code */
+            cout << "[";
+        }
+        cout << " " << arr[i];
+        if (length - 1 == i)
+        {
+            /* code */
+            cout << " ]" << endl; 
+        }
+        
+    }
+}
+
 void SelectionSort(int* arr, int length)
 {
-    if (length < 1)
+    if (arr == NULL || length < 1)
     {
         /* code */
         exit(EXIT_FAILURE);
@@ -13,21 +40,24 @@ void SelectionSort(int* arr, int length)
     for (int i = 0; i < length; i++)
     {
         /* code */
-        int min = arr[i];
+        int minValueIndex = i;
         for (int j = i+1; j < length; j++)
         {
             /* code */
-            min = min < arr[j] 
+            minValueIndex = arr[minValueIndex] > arr[j] ? j : minValueIndex;
         }
-        
+        swap(arr, i, minValueIndex);
     }
-    
-    
 }
 
-void swap(int* a, int* b)
+int main()
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+    int arr[10] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+    cout << "before: ";
+    show_arr(arr, 10);
+    SelectionSort(arr, 10);
+    cout << "after: ";
+    show_arr(arr, 10);
+
+    return 0;
 }
