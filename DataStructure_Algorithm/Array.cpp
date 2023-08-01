@@ -106,9 +106,61 @@ private:
 	int mCur;   // 数组有效元素个数
 };
 
+// 双指针思想逆序字符串
+void Reverse(char arr[], int size)
+{
+	char* p = arr;
+	char* q = arr + size - 1;
+	while (p < q)
+	{
+		char ch = *p;
+		*p = *q;
+		*q = ch;
+		p++;
+		q--;
+	}
+}
+
+// 整形数组，把偶数调整到数组的左边，把奇数调整到数组的右边
+void AdjustArray(int arr[], int size)
+{
+	int* p = arr;
+	int* q = arr + size - 1;
+
+	while (p < q)
+	{
+		// p从左往右找奇数
+		while (p < q)
+		{
+			if ((*p & 0x1) == 1)
+			{
+				break;
+			}
+			p++;
+		}
+		// q从右往左找偶数
+		while (p < q)
+		{
+			if ((*q & 0x1) == 0)
+			{
+				break;
+			}
+			q--;
+		}
+		if (p < q)
+		{
+			int tmp = *p;
+			*p = *q;
+			*q = tmp;
+			p++;
+			q--;
+		}
+	}
+}
+
 int main()
 {
-	Array arr;
+	/*Array arr;
 
 	srand(time(0));
 	for (int i = 0; i < 10; i++)
@@ -132,5 +184,29 @@ int main()
 	{
 		arr.erase(pos);
 		arr.show();
+	}*/
+
+	//char arr[] = "hello world!";
+	//Reverse(arr, strlen(arr));
+	//cout << arr << endl;
+
+	int arr[10] = { 0 };
+	srand(time(0));
+	for (int i = 0; i < 10; i++)
+	{
+		arr[i] = rand() % 100;
 	}
+
+	for (int v : arr)
+	{
+		cout << v << " ";
+	}
+	cout << endl;
+
+	AdjustArray(arr, 10);
+	for (int v : arr)
+	{
+		cout << v << " ";
+	}
+	cout << endl;
 }
