@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_链表", "02_链表\02_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_单循环链表", "03_单循环链表\03_单循环链表.vcxproj", "{8430FF1E-2953-493D-89AA-A1C585F9E46E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双向循环链表", "双向循环链表\双向循环链表.vcxproj", "{E5F0A048-DE07-41E0-BD83-DD79848A241D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_双向循环链表", "双向循环链表\双向循环链表.vcxproj", "{E5F0A048-DE07-41E0-BD83-DD79848A241D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_栈", "05_栈\05_栈.vcxproj", "{2F22B650-FB2C-45D4-973F-98132B787047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{E5F0A048-DE07-41E0-BD83-DD79848A241D}.Release|x64.Build.0 = Release|x64
 		{E5F0A048-DE07-41E0-BD83-DD79848A241D}.Release|x86.ActiveCfg = Release|Win32
 		{E5F0A048-DE07-41E0-BD83-DD79848A241D}.Release|x86.Build.0 = Release|Win32
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Debug|x64.ActiveCfg = Debug|x64
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Debug|x64.Build.0 = Debug|x64
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Debug|x86.Build.0 = Debug|Win32
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Release|x64.ActiveCfg = Release|x64
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Release|x64.Build.0 = Release|x64
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Release|x86.ActiveCfg = Release|Win32
+		{2F22B650-FB2C-45D4-973F-98132B787047}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
