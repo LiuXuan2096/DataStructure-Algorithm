@@ -15,7 +15,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_栈", "05_栈\05_栈.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_队列", "06_队列\06_队列.vcxproj", "{7FBC3D0E-76D4-494C-83FF-9475A4F080AC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_二分搜索算法", "10_二分搜索算法\10_二分搜索算法.vcxproj", "{86985431-86F8-48F1-AFC7-255854DB705D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_二分搜索算法", "10_二分搜索算法\10_二分搜索算法.vcxproj", "{86985431-86F8-48F1-AFC7-255854DB705D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_基础排序", "08_基础排序\08_基础排序.vcxproj", "{655A6FFE-2D97-44C6-94D8-0847A2078127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{86985431-86F8-48F1-AFC7-255854DB705D}.Release|x64.Build.0 = Release|x64
 		{86985431-86F8-48F1-AFC7-255854DB705D}.Release|x86.ActiveCfg = Release|Win32
 		{86985431-86F8-48F1-AFC7-255854DB705D}.Release|x86.Build.0 = Release|Win32
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Debug|x64.ActiveCfg = Debug|x64
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Debug|x64.Build.0 = Debug|x64
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Debug|x86.ActiveCfg = Debug|Win32
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Debug|x86.Build.0 = Debug|Win32
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Release|x64.ActiveCfg = Release|x64
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Release|x64.Build.0 = Release|x64
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Release|x86.ActiveCfg = Release|Win32
+		{655A6FFE-2D97-44C6-94D8-0847A2078127}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
