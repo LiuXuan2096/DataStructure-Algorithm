@@ -47,26 +47,26 @@ void HeapSort(int arr[], int size)
 	}
 }
 
-int main()
-{
-	int arr[10];
-	srand(time(nullptr));
-
-	for (int i = 0; i < 10; i++)
-	{
-		arr[i] = rand() % 100 + 1;
-	}
-
-	for (int v : arr)
-	{
-		cout << v << " ";
-	}
-	cout << endl;
-
-	HeapSort(arr, 10);
-	for (int v : arr)
-	{
-		cout << v << " ";
-	}
-	cout << endl;
-}
+//int main()
+//{
+//	int arr[10];
+//	srand(time(nullptr));
+//
+//	for (int i = 0; i < 10; i++)
+//	{
+//		arr[i] = rand() % 100 + 1;
+//	}
+//
+//	for (int v : arr)
+//	{
+//		cout << v << " ";
+//	}
+//	cout << endl;
+//
+//	HeapSort(arr, 10);
+//	for (int v : arr)
+//	{
+//		cout << v << " ";
+//	}
+//	cout << endl;
+//}
