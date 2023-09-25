@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_分治算法", "15_分�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "贪心算法", "贪心算法\贪心算法.vcxproj", "{0BABF680-ED96-4644-A8F7-C58635AD2EAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法体系班", "算法体系班\算法体系班.vcxproj", "{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{0BABF680-ED96-4644-A8F7-C58635AD2EAF}.Release|x64.Build.0 = Release|x64
 		{0BABF680-ED96-4644-A8F7-C58635AD2EAF}.Release|x86.ActiveCfg = Release|Win32
 		{0BABF680-ED96-4644-A8F7-C58635AD2EAF}.Release|x86.Build.0 = Release|Win32
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Debug|x64.ActiveCfg = Debug|x64
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Debug|x64.Build.0 = Debug|x64
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Debug|x86.Build.0 = Debug|Win32
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Release|x64.ActiveCfg = Release|x64
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Release|x64.Build.0 = Release|x64
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Release|x86.ActiveCfg = Release|Win32
+		{344D8158-C0F4-428E-99FD-79B0B9DD5FBA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
