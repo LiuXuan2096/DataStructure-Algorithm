@@ -19,6 +19,9 @@
     <Filter Include="源文件\03_异或运算">
       <UniqueIdentifier>{03215349-4e11-4707-8dd3-53368fb66cfa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\05_归并排序附加题与随机快速排序">
+      <UniqueIdentifier>{d8bb666d-72ae-4914-9f62-c0e52fdcf762}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\数据结构与算法体系班\04_归并排序及其相关面试题\test.cpp">
@@ -50,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="4_BiggerThanRightTwice.cpp">
       <Filter>源文件\04_归并排序及其相关面试题</Filter>
+    </ClCompile>
+    <ClCompile Include="1_区间和的个数.cpp">
+      <Filter>源文件\05_归并排序附加题与随机快速排序</Filter>
+    </ClCompile>
+    <ClCompile Include="2_快速排序的递归版本和非递归版本.cpp">
+      <Filter>源文件\05_归并排序附加题与随机快速排序</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
