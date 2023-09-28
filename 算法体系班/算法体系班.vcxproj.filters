@@ -22,6 +22,9 @@
     <Filter Include="源文件\05_归并排序附加题与随机快速排序">
       <UniqueIdentifier>{d8bb666d-72ae-4914-9f62-c0e52fdcf762}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\06_堆和堆排序">
+      <UniqueIdentifier>{27e9a260-f0c6-49ec-840b-9a860ad089c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\数据结构与算法体系班\04_归并排序及其相关面试题\test.cpp">
@@ -60,5 +63,16 @@
     <ClCompile Include="2_快速排序的递归版本和非递归版本.cpp">
       <Filter>源文件\05_归并排序附加题与随机快速排序</Filter>
     </ClCompile>
+    <ClCompile Include="1_HeapSort.cpp">
+      <Filter>源文件\06_堆和堆排序</Filter>
+    </ClCompile>
+    <ClCompile Include="2_SortArrayDistanceLessK.cpp">
+      <Filter>源文件\06_堆和堆排序</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShowArray.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

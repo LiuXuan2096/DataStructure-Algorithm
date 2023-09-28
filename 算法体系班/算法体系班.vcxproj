@@ -135,11 +135,16 @@
     <ClCompile Include="..\数据结构与算法体系班\异或运算\3_.cpp" />
     <ClCompile Include="..\数据结构与算法体系班\异或运算\4_.cpp" />
     <ClCompile Include="..\数据结构与算法体系班\异或运算\5_.cpp" />
+    <ClCompile Include="1_HeapSort.cpp" />
     <ClCompile Include="1_区间和的个数.cpp" />
+    <ClCompile Include="2_SortArrayDistanceLessK.cpp" />
     <ClCompile Include="2_小和问题.cpp" />
     <ClCompile Include="2_快速排序的递归版本和非递归版本.cpp" />
     <ClCompile Include="3_逆序对总数.cpp" />
     <ClCompile Include="4_BiggerThanRightTwice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShowArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
